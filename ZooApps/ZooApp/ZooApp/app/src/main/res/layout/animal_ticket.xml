@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@color/gris"
+              android:padding="8dp"
+>
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/background"
+    >
+
+        <ImageView
+                android:id="@+id/ivName"
+                android:layout_width="50pt"
+                android:layout_height="50pt"
+                app:srcCompat="@drawable/baboon"
+                android:layout_margin="4dp"
+        />
+        <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="8dp"
+        >
+            <TextView
+                    android:id="@+id/tvName"
+                    android:text="Babon"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+            />
+            <TextView
+                    android:id="@+id/tvDescription"
+                    android:text="Descripcion del babuino"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:textColor="#000"
+
+            />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+</LinearLayout>
